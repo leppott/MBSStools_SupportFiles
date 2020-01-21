@@ -1,0 +1,30 @@
+---
+title: "NEWS-MBSS_TaxaMaster"
+output: github_document
+---
+
+<!-- NEWS.md is generated from NEWS.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "NEWS-"
+)
+```
+
+```{r, echo = FALSE}
+cat(paste0("Last Update: ",Sys.time()))
+```
+
+MBSS_MasterTaxa v0.1.0.9001 (2019-06-13)
+================
+* Update file names, Issue #1.
+* Update ReadMe with instructions for accessing the files from within R.
+* Add NEWS file and update it.
+
+MBSS_MasterTaxa v0.1.0 (2019-06-13)
+================
+* Initial commit.
+* Added master taxa list files.
+
