@@ -23,4 +23,4 @@ df_mt_fish <- as.data.frame(read_excel(temp_fish, guess_max = 10^3))
 
 # Badges
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/leppott/MBSS_MasterTaxa/graphs/commit-activity)
-[![GitHub issues](https://img.shields.io/github/issues/leppott/MBSS_MasterTaxa.svg)](https://GitHub.com/leppott/MBSS_tools_MasterTaxa/issues/)
+[![GitHub issues](https://img.shields.io/github/issues/leppott/MBSS_MasterTaxa.svg)](https://GitHub.com/leppott/MBSS_MasterTaxa/issues/)
