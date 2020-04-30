@@ -16,6 +16,13 @@ knitr::opts_chunk$set(
 ```{r, echo = FALSE}
 cat(paste0("Last Update: ",Sys.time()))
 ```
+MBSStools_SuportFiles v0.1.0.9003 (2020-04-030)
+================
+* Rename to MBSStools_SupportFiles
+* ReadMe
+    + Edit for name change.
+    + Add section about GIS files.  Issue #3.
+
 MBSS_MasterTaxa v0.1.0.9002 (2020-01-21)
 ================
 * Update badge URL.

@@ -1,4 +1,6 @@
-# MBSS_MasterTaxa
+# MBSStools_SupportFiles
+
+## Master Taxa
 Master taxa lists for Maryland Biological Stream Survery (MBSS); fish and benthic macroinvertebrates.
 
 These files are intended to be the "official" and "current" versions for use with the R package `MBSStools` (https://leppott.github.io/MBSStools/) to calculate Fish and Benthic Macroinvertebrate IBIs.
@@ -19,6 +21,13 @@ df_mt_bugs <- as.data.frame(read_excel(temp_bugs, guess_max = 10^3))
 url_mt_fish <- "https://github.com/leppott/MBSS_MasterTaxa/raw/master/Data/CHAR_Fish.xlsx"
 GET(url_mt_fish, write_disk(temp_fish <- tempfile(fileext = ".xlsx")))
 df_mt_fish <- as.data.frame(read_excel(temp_fish, guess_max = 10^3))
+```
+## GIS Files
+GIS files (strata polygons and coldwater streams).
+
+```
+# Code to access the files
+# Potentially add code to generate strata from station coordinates (lat-long or NAD83?)
 ```
 
 # Badges
