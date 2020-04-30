@@ -16,6 +16,10 @@ knitr::opts_chunk$set(
 ```{r, echo = FALSE}
 cat(paste0("Last Update: ",Sys.time()))
 ```
+MBSStools_SuportFiles v0.1.0.9004 (2020-04-030)
+================
+* Add GIS files.  Issue #3.
+
 MBSStools_SuportFiles v0.1.0.9003 (2020-04-030)
 ================
 * Rename to MBSStools_SupportFiles
