@@ -6,24 +6,18 @@ Master taxa lists for MBSS; fish and benthic macroinvertebrates.
 
 These files are intended to be the "official" and "current" versions for use with the R package `MBSStools` (https://leppott.github.io/MBSStools/) to calculate Fish and Benthic Macroinvertebrate IBIs.
 
+Additions to the files can be........
 
-Last Update:
 
-* Benthos
+|File Name      |Description              | Version/Last Revised|
+|:--------------|:------------------------|:-------------------:|
+|CHAR_Bugs.xlsx |Master taxa list for BIBI|2019-11-14           |
+|CHAR_Fish.xlsx |Master taxa list for FIBI|2019-04-16           |
 
-    + Version = CHAR15
-    
-    + Date = 2019-11-14
-    
-* Fish
-
-    + Version = x
-    
-    + Date = 2019-04-16
-
-Example code below to download the data files into R as data frames.
 
 The files will always have the same names so any code referencing the files will always get the most recent files.
+
+Example code below to download the data files into R.
 
 ```
 # Packages
@@ -33,37 +27,41 @@ library(readxl)
 # Benthos
 url_mt_bugs <- "https://github.com/leppott/MBSStools_SupportFiles/raw/master/Data/CHAR_Bugs.xlsx"
 GET(url_mt_bugs, write_disk(temp_bugs <- tempfile(fileext = ".xlsx")))
-df_mt_bugs <- as.data.frame(read_excel(temp_bugs, guess_max = 10^3))
+df_mt_bugs <- read_excel(temp_bugs, guess_max = 10^3)
 
 # Fish
 url_mt_fish <- "https://github.com/leppott/MBSStools_SupportFiles/raw/master/Data/CHAR_Fish.xlsx"
 GET(url_mt_fish, write_disk(temp_fish <- tempfile(fileext = ".xlsx")))
-df_mt_fish <- as.data.frame(read_excel(temp_fish, guess_max = 10^3))
+df_mt_fish <- read_excel(temp_fish, guess_max = 10^3)
 ```
 ## GIS Files
 GIS files (strata polygons and coldwater streams).
 
-Files are saved in a single zip file for easier transfer (1 file versus many files).
+Files are saved in a single zip file for easier transfer (1 file versus many files) and smaller (15.1 MB vs. 26.7 MB).
 
-* MD_Boundary_County_Detailed
 
-    + Version = 2017-05-03
+|File Name                  |Description           | Version/Last Revised|
+|:--------------------------|:---------------------|:-------------------:|
+|mbss_strata                |Regions for BIBI      |2020-04-20           |
+|mbss_strata_coldstreams    |Regions for FIBI      |2020-04-20           |
+|MD_Boundary_County_Detailed|Maryland Counties     |2017-05-03           |
+|MD_Coast_Hydrology         |Maryland Coastline    |2017-05-03           |
+|MD_State_Boundary          |Maryland State Outline|2017-05-03           |
     
-* MD_Coast_Hydrology
-
-    + Version = 2017-05-03
-    
-* MD_State_Boundary
-
-    + Version = 2017-05-03
+Example code below to download the zip file and unzip to a user specified directory.
 
 ```
-# Code to access the files
-url_gis <- "https://github.com/leppott/MBSStools_SupportFiles/raw/master/Data/MD_GIS.zip"
-GET(url_gis, write_disk(temp_bugs <- tempfile(fileext = ".zip")))
-# Copy to new location (file.choose) make interactive.
+# Packages
+library(httr)
+library(tcltk)
 
-# Potentially add code to generate strata from station coordinates (lat-long or NAD83?)
+# Download GIS files
+url_gis <- "https://github.com/leppott/MBSStools_SupportFiles/raw/master/Data/MD_GIS.zip"
+GET(url_gis, write_disk(temp_gis <- tempfile(fileext = ".zip")))
+# Unzip to user specified folder (Windows Only)
+unzip(temp_gis, exdir = tk_choose.dir())
+# Alternativel, unzip to current working directory
+# unzip(temp_gis, exdir = ".")
 ```
 
 # Badges
