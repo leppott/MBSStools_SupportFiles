@@ -56,7 +56,7 @@ library(httr)
 library(tcltk)
 
 # Download GIS files
-url_gis <- "https://github.com/leppott/MBSStools_SupportFiles/raw/master/Data/MD_GIS.zip"
+url_gis <- "https://github.com/leppott/MBSStools_SupportFiles/raw/master/Data/MBSS_GIS.zip"
 GET(url_gis, write_disk(temp_gis <- tempfile(fileext = ".zip")))
 # Unzip to user specified folder (Windows Only)
 unzip(temp_gis, exdir = tk_choose.dir())
