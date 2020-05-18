@@ -64,6 +64,11 @@ unzip(temp_gis, exdir = tk_choose.dir())
 # unzip(temp_gis, exdir = ".")
 ```
 
+# File Updates
+Updates to the taxa list are performed by MBSS staff and are on an "as needed" basis.
+
+If you have taxa in your samples that do no match the master taxa list email MBSS staff with names, locations (stream name and lat/long), and dates.
+
 # Badges
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/leppott/MBSS_MasterTaxa/graphs/commit-activity)
 [![GitHub issues](https://img.shields.io/github/issues/leppott/MBSS_MasterTaxa.svg)](https://GitHub.com/leppott/MBSS_MasterTaxa/issues/)
