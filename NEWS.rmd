@@ -16,6 +16,11 @@ knitr::opts_chunk$set(
 ```{r, echo = FALSE}
 cat(paste0("Last Update: ",Sys.time()))
 ```
+MBSStools_SuportFiles v0.1.0.9010 (2020-05-21)
+================
+* Data
+    + Update Bug CSV (bad character in header row).
+    
 MBSStools_SuportFiles v0.1.0.9009 (2020-05-21)
 ================
 * ReadMe
