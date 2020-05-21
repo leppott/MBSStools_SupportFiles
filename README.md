@@ -22,9 +22,11 @@ The files can be retrieved as CSV or XLSX.  The CSV file imports with a single l
 Example code below to read the CSV files into R.
 
 ```
+# Benthos
 url_mt_bugs <- "https://github.com/leppott/MBSStools_SupportFiles/raw/master/Data/CHAR_Bugs.csv"
 df_mt_bugs <- read.csv(url_mt_bugs)
 
+# Fish
 url_mt_fish <- "https://github.com/leppott/MBSStools_SupportFiles/raw/master/Data/CHAR_Fish.csv"
 df_mt_fish<- read.csv(url_mt_fish)
 ```
