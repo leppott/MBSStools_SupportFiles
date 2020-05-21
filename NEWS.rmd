@@ -16,6 +16,12 @@ knitr::opts_chunk$set(
 ```{r, echo = FALSE}
 cat(paste0("Last Update: ",Sys.time()))
 ```
+
+MBSStools_SuportFiles v0.1.0.9007 (2020-05-21)
+================
+* Data
+    + Added CSV file versions of each master taxa list.
+
 MBSStools_SuportFiles v0.1.0.9006 (2020-05-18)
 ================
 * ReadMe
