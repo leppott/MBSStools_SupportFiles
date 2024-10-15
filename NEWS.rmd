@@ -17,6 +17,11 @@ knitr::opts_chunk$set(
 cat(paste0("Last Update: ",Sys.time()))
 ```
 
+MBSStools_SuportFiles v0.1.0.9015 (2024-10-15)
+================
+* fix: Data
+    + Convert fish taxa table from xlsx to csv
+
 MBSStools_SuportFiles v0.1.0.9014 (2024-10-15)
 ================
 * Data, Issue #4

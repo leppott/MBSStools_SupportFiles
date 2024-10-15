@@ -3,7 +3,12 @@ NEWS-MBSS_TaxaMaster
 
 <!-- NEWS.md is generated from NEWS.Rmd. Please edit that file -->
 
-    #> Last Update: 2024-10-15 13:19:55.373304
+    #> Last Update: 2024-10-15 13:32:10.695729
+
+# MBSStools_SuportFiles v0.1.0.9015 (2024-10-15)
+
+- fix: Data
+  - Convert fish taxa table from xlsx to csv
 
 # MBSStools_SuportFiles v0.1.0.9014 (2024-10-15)
 
