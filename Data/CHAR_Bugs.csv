@@ -1,4 +1,4 @@
-TAXON,PHYLUM,CLASS,ORDER,FAMILY,GENUS,OTHER_TAXA,TRIBE,FFG,FAM_TV,HABIT,FINALTOLVAL07,COMMENT,YEAR_ADDED
+MBSSTaxon,Phylum,Class,Order,Family,Genus,Other_Taxa,Tribe,FFG,FAM_TV,Habit,FinalTolVal07,Comment,Year_Added
 ABLABESMYIA,Arthropoda,Insecta,Diptera,Chironomidae,Ablabesmyia,Tanypodinae,Pentaneurini,Predator,7,sp,8.1,,1995
 ACENTRELLA,Arthropoda,Insecta,Ephemeroptera,Baetidae,Acentrella,,,Collector,5,"sw, cn",4.9,,1995
 ACERPENNA,Arthropoda,Insecta,Ephemeroptera,Baetidae,Acerpenna,,,Collector,5,"sw, cn",2.6,,1995
@@ -55,7 +55,7 @@ BELOSTOMATIDAE,Arthropoda,Insecta,Hemiptera,Belostomatidae,,,,,10,,10,,1995
 BEROSUS,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Berosus,,,Collector,5,"sw, dv, cb",4.1,,1995
 BETHBILBECKIA,Arthropoda,Insecta,Diptera,Chironomidae,Bethbilbeckia,,,,7,,,"Added April 2013 by MTK, addition",2013
 BEZZIA,Arthropoda,Insecta,Diptera,Ceratopogonidae,Bezzia,,,Predator,6,bu,3.3,,1995
-BEZZIA/PALPOMYIA,Arthropoda,Insecta,Diptera,Ceratopogonidae,Bezzia/Palpomyia,,,Predator,6,bu,,"Lumping, added by ESF ",2018
+BEZZIA/PALPOMYIA,Arthropoda,Insecta,Diptera,Ceratopogonidae,Bezzia/Palpomyia,,,Predator,6,bu,,"Lumping, added by ESF",2018
 BEZZIA/PALPOMYIA/PROBEZZIA,Arthropoda,Insecta,Diptera,Ceratopogonidae,Bezzia/Palpomyia/Probezzia,,,Predator,6,bu,,,2021
 BITHYNIA,Mollusca,Gastropoda,Neotaenioglossa,Bithyniidae,Bithynia,,,Scraper,8,cb,9,,1995
 BITHYNIIDAE,Mollusca,Gastropoda,Mesogastropoda,Bithyniidae,,,,,8,,,,1995
@@ -105,7 +105,7 @@ CHELIFERA,Arthropoda,Insecta,Diptera,Empididae,Chelifera,Hemerodromiini,Hemerodr
 CHEUMATOPSYCHE,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Cheumatopsyche,,,Filterer,5,cn,6.5,,1995
 CHIMARRA,Arthropoda,Insecta,Trichoptera,Philopotamidae,Chimarra,,,Filterer,3,cn,4.4,,1995
 CHIRONOMIDAE,Arthropoda,Insecta,Diptera,Chironomidae,,,,,7,,6.6,,1996
-CHIRONOMINAE,Arthropoda,Insecta,Diptera,Chironomidae,,Chironominae,Chironomini,Collector,7,,6.6,,1995
+CHIRONOMINAE,Arthropoda,Insecta,Diptera,Chironomidae,,Chironominae,,Collector,7,,6.6,,1995
 CHIRONOMINI,Arthropoda,Insecta,Diptera,Chironomidae,,Chironominae,Chironomini,,7,,5.9,,1997
 CHIRONOMUS,Arthropoda,Insecta,Diptera,Chironomidae,Chironomus,Chironominae,Chironomini,Collector,7,bu,4.6,,1995
 CHLAENIUS,Arthropoda,Insecta,Coleoptera,Carabidae,Chlaenius,,,,4,,,,1995
@@ -309,7 +309,7 @@ HYDROPSYCHIDAE,Arthropoda,Insecta,Trichoptera,Hydropsychidae,,,,Filterer,5,cn,5.
 HYDROPTILA,Arthropoda,Insecta,Trichoptera,Hydroptilidae,Hydroptila,Hydroptilini,Hydroptilini,Scraper,4,cn,6,,1995
 HYDROPTILIDAE,Arthropoda,Insecta,Trichoptera,Hydroptilidae,,,,,4,,4,,1996
 HYDROVATUS,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydrovatus,,,Predator,5,,,,2022
-HYGROTUS,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hygrotus,,,Predator,5,"sw, dv",,,
+HYGROTUS,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hygrotus,,,Predator,5,"sw, dv",,,1995
 HYMENOPTERA,Arthropoda,Insecta,Hymenoptera,,,,,,,,,,1995
 ILISIA,Arthropoda,Insecta,Diptera,Tipulidae,Ilisia,,,Collector,4,bu,,,2024
 ILYBIUS,Arthropoda,Insecta,Coleoptera,Dytiscidae,Ilybius,,,Predator,5,sw,5,,2024
@@ -423,7 +423,7 @@ NEOPERLA,Arthropoda,Insecta,Plecoptera,Perlidae,Neoperla,Neoperlini,Neoperlini,P
 NEOPHYLAX,Arthropoda,Insecta,Trichoptera,Uenoidae,Neophylax,,,Scraper,3,cn,2.7,,1995
 NEOPLASTA,Arthropoda,Insecta,Diptera,Empididae,Neoplasta,,,Predator,6,"sp, bu",,"Added Sept 2010 by MTK, addition",2010
 NEOPOROUS,Arthropoda,Insecta,Coleoptera,Dytiscidae,Neoporus,,,Predator,5,"sw, cb",5,Changed from Hydroporous to Neoporus,2008
-NEOPORUS,Arthropoda,Insecta,Coleoptera,Dytiscidae,Neoporus,,,Predator,5,"sw, cb",5,,
+NEOPORUS,Arthropoda,Insecta,Coleoptera,Dytiscidae,Neoporus,,,Predator,5,"sw, cb",5,,2008
 NEOZAVRELIA,Arthropoda,Insecta,Diptera,Chironomidae,Neozavrelia,,Tanytarsini,,7,,,"Added April 2014 by MTK, addition",2014
 NEPIDAE,Arthropoda,Insecta,Hemiptera,Nepidae,,,,Predator,,,,,2007
 NEURECLIPSIS,Arthropoda,Insecta,Trichoptera,Polycentropodidae,Neureclipsis,,,Filterer,6,cn,0.2,,1995
@@ -493,7 +493,7 @@ PARATANYTARSUS,Arthropoda,Insecta,Diptera,Chironomidae,Paratanytarsus,Chironomin
 PARATENDIPES,Arthropoda,Insecta,Diptera,Chironomidae,Paratendipes,Chironominae,Chironomini,Collector,7,bu,6.6,,1995
 PARATRICHOCLADIUS,Arthropoda,Insecta,Diptera,Chironomidae,Paratrichocladius,Orthocladiinae,,Collector,7,sp,6.6,,1995
 PEDICIA,Arthropoda,Insecta,Diptera,Tipulidae,Pedicia,,,Predator,4,bu,4.8,,2002
-PELECORHYNCHIDAE,Arthropoda,Insecta,Diptera,Pelechorhynchidae,,,,Predator,3,,,,
+PELECORHYNCHIDAE,Arthropoda,Insecta,Diptera,Pelechorhynchidae,,,,Predator,3,,,,1995
 PELOCORIS,Arthropoda,Insecta,Hemiptera,Naucoridae,Pelocoris,,,Predator,,,7,"Added on 6 Nov 07 by DB. Tol val from RBP Appendix B/MACS, addition",2006
 PELTODYTES,Arthropoda,Insecta,Coleoptera,Haliplidae,Peltodytes,,,Shredder,5,"cb, cn",8.9,,1995
 PELTOPERLA,Arthropoda,Insecta,Plecoptera,Peltoperlidae,Peltoperla,,,Shredder,2,"cn, sp",1.1,,1995
@@ -510,8 +510,8 @@ PERLODIDAE,Arthropoda,Insecta,Plecoptera,Perlodidae,,,,Predator,2,cn,2.2,,1995
 PETROPHILA,Arthropoda,Insecta,Lepidoptera,Crambidae,Petrophila,Nymphulinae,Argyractini,Scraper,5,"cb, sw",5,"Added 7 Oct 2008 MTK, addition",2008
 PHAENOPSECTRA,Arthropoda,Insecta,Diptera,Chironomidae,Phaenopsectra,Chironominae,Chironomini,Collector,7,cn,8.7,,1995
 PHAGOCATA,Platyhelminthes,Turbellaria,Tricladida,Planariidae,Phagocata,,,Predator,6,,8.4,,2000
-PHANOGOMPHUS,Arthropoda,Insecta,Odonata,Gomphidae,Phanogomphus,,,Predator,5,bu,2.2,,2023
-PHASGANOPHORA,Arthropoda,Insecta,Plecoptera,Perlidae,Agnetina,Agnetina,Agnetina,Predator,2,cn,2.2,,
+PHANOGOMPHUS,Arthropoda,Insecta,Odonata,Gomphidae,Phanogomphus,,,Predator,5,bu,2.2,Phanogomphus split from Gomphus (Ware et al. 2017; MCB 2019),2023
+PHASGANOPHORA,Arthropoda,Insecta,Plecoptera,Perlidae,Agnetina,Agnetina,Agnetina,Predator,2,cn,2.2,,1995
 PHILOPOTAMIDAE,Arthropoda,Insecta,Trichoptera,Philopotamidae,,,,Filterer,3,cn,2.6,,1995
 PHRYGANEIDAE,Arthropoda,Insecta,Trichoptera,Phryganeidae,,,,Shredder,5,,4.3,,2000
 PHYLOCENTROPUS,Arthropoda,Insecta,Trichoptera,Dipseudopsidae,Phylocentropus,,,Collector,5,bu,5,,1995
@@ -538,7 +538,7 @@ PLEUROCERIDAE,Mollusca,Gastropoda,Mesogastropoda,Pleuroceridae,,,,,6,,6,,2007
 PODONOMINAE,Arthropoda,Insecta,Diptera,Chironomidae,,,Podonominae,,7,,,,2004
 POLYCENTROPODIDAE,Arthropoda,Insecta,Trichoptera,Polycentropodidae,,,,,6,cn,0.2,,1995
 POLYCENTROPUS,Arthropoda,Insecta,Trichoptera,Polycentropodidae,Polycentropus,,,Filterer,6,cn,1.1,,1995
-POLYCENTROPUS GROUP,Arthropoda,Insecta,Trichoptera,Polycentropodidae,Polycentropus group,,,Filterer,6,cn,1.1,"Lumping, added by ESF ",2018
+POLYCENTROPUS GROUP,Arthropoda,Insecta,Trichoptera,Polycentropodidae,Polycentropus group,,,Filterer,6,cn,1.1,"Lumping, added by ESF",2018
 POLYMITARCYIDAE,Arthropoda,Insecta,Ephemeroptera,Polymitarcyidae,,,,Collector,2,bu,2,,1995
 POLYPEDILUM,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,Chironominae,Chironomini,Shredder,7,"cb, cn",6.3,,1995
 POTAMANTHIDAE,Arthropoda,Insecta,Ephemeroptera,Potamanthidae,,,,,4,,4,,1996
@@ -690,7 +690,7 @@ UENOIDAE,Arthropoda,Insecta,Trichoptera,Uenoidae,,,,,3,cn,2.7,,1996
 ULOMORPHA,Arthropoda,Insecta,Diptera,Tipulidae,Ulomorpha,,,Predator,,bu,,,2023
 UNIONIDAE,Mollusca,Bivalvia,Unionoida,Unionidae,,Mollusca,,Filterer,6,bu,6,,1995
 UNNIELLA,Arthropoda,Insecta,Diptera,Chironomidae,Unniella,Orthocladiinae,,Collector,7,,6.6,,1995
-UVARUS,Arthropoda,Insecta,Coleoptera,Dytiscidae,Uvarus,,,Predator,5,"sw, cb",5.4,,
+UVARUS,Arthropoda,Insecta,Coleoptera,Dytiscidae,Uvarus,,,Predator,5,"sw, cb",5.4,,1995
 VALVATA,Mollusca,Gastropoda,Heterostropha,Valvatidae,Valvata,,,,,,9,,1995
 VALVATIDAE,Mollusca,Gastropoda,Mesogastropoda,Valvatidae,,,,,,,,,1995
 VELIIDAE,Arthropoda,Insecta,Hemiptera,Veliidae,,,,,6,,6,,1995
@@ -703,6 +703,5 @@ XYLOTOPUS,Arthropoda,Insecta,Diptera,Chironomidae,Xylotopus,Orthocladiinae,,Shre
 YUGUS,Arthropoda,Insecta,Plecoptera,Perlodidae,Yugus,Perlodini,Perlodini,Predator,2,cn,2,,2003
 ZALUTSCHIA,Arthropoda,Insecta,Diptera,Chironomidae,Zalutschia,Orthocladiinae,,Shredder,7,,6.6,,2001
 ZAVRELIA,Arthropoda,Insecta,Diptera,Chironomidae,Zavrelia,Chironominae,Tanytarsini,Collector,7,"cb, sp, cn",6.6,,1995
-ZAVRELIELLA,Arthropoda,Insecta,Diptera,Chironomidae,Zavreliella,Chironominae,Tanytarsini,,7,bu,,,
+ZAVRELIELLA,Arthropoda,Insecta,Diptera,Chironomidae,Zavreliella,Chironominae,Tanytarsini,,7,bu,,,1995
 ZAVRELIMYIA,Arthropoda,Insecta,Diptera,Chironomidae,Zavrelimyia,Tanypodinae,Pentaneurini,Predator,7,sp,5.3,,1995
-HYDRA,Cnidaria,Medusozoa,Anthoathecatae,Hydridae,,,,Predator,,,,,2024

@@ -3,7 +3,14 @@ NEWS-MBSS_TaxaMaster
 
 <!-- NEWS.md is generated from NEWS.Rmd. Please edit that file -->
 
-    #> Last Update: 2024-08-13 14:58:06.818315
+    #> Last Update: 2024-10-15 13:19:55.373304
+
+# MBSStools_SuportFiles v0.1.0.9014 (2024-10-15)
+
+- Data, Issue \#4
+  - Update bug file, 2024-06-00
+  - Update fish file, 2024-00-00
+- docs: Update README
 
 # MBSStools_SuportFiles v0.1.0.9013 (2024-08-13)
 

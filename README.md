@@ -1,23 +1,31 @@
 # MBSStools_SupportFiles
-For calculation of the Maryland Biological Stream Survery (MBSS) biological indices master taxa lists (with phylogenetic and autecological information) is required.  These files along with GIS data of the MBSS strata will be stored in this GitHub repository.
+For calculation of the Maryland Biological Stream Survery (MBSS) biological 
+indices master taxa lists (with phylogenetic and autecological information) is 
+required.  These files along with GIS data of the MBSS strata will be stored in 
+this GitHub repository.
 
 ## Master Taxa
 Master taxa lists for MBSS; fish and benthic macroinvertebrates.
 
-These files are intended to be the "official" and "current" versions for use with the R package `MBSStools` (https://leppott.github.io/MBSStools/) to calculate Fish and Benthic Macroinvertebrate IBIs.
+These files are intended to be the "official" and "current" versions for use 
+with the R package `MBSStools` (https://leppott.github.io/MBSStools/) to 
+calculate Fish and Benthic Macroinvertebrate IBIs.
 
-Additions to the files can be........
-
+Additions to the files can be sent to MBSS staff.
 
 |File Name      |Description              | Version/Last Revised|
 |:--------------|:------------------------|:-------------------:|
-|CHAR_Bugs.xlsx |Master taxa list for BIBI|2019-11-14           |
-|CHAR_Fish.xlsx |Master taxa list for FIBI|2019-04-16           |
+|CHAR_Bugs.xlsx |Master taxa list for BIBI|2024-06-xx           |
+|CHAR_Fish.xlsx |Master taxa list for FIBI|2024-xx-xx           |
 
 
-The files will always have the same names so any code referencing the files will always get the most recent files.
+The files will always have the same names so any code referencing the files will
+always get the most recent files.
 
-The files can be retrieved as CSV or XLSX.  The CSV file imports with a single line of code.  Whereas, the Excel file requires two packages as readxl::read_excel cannot read from a URL.  So one package downloads the file and the second reads the file.
+The files can be retrieved as CSV or XLSX.  The CSV file imports with a single 
+line of code.  Whereas, the Excel file requires two packages as 
+readxl::read_excel cannot read from a URL.  So one package downloads the file 
+and the second reads the file.
 
 Example code below to read the CSV files into R.
 
@@ -80,9 +88,11 @@ unzip(temp_gis, exdir = tk_choose.dir())
 ```
 
 # File Updates
-Updates to the taxa list are performed by MBSS staff and are on an "as needed" basis.
+Updates to the taxa list are performed by MBSS staff and are on an "as needed" 
+basis.
 
-If you have taxa in your samples that do no match the master taxa list email MBSS staff with names, locations (stream name and lat/long), and dates.
+If you have taxa in your samples that do no match the master taxa list email 
+MBSS staff with names, locations (stream name and lat/long), and dates.
 
 # Badges
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/leppott/MBSS_MasterTaxa/graphs/commit-activity)
