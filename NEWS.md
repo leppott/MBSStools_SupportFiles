@@ -3,7 +3,12 @@ NEWS-MBSS_TaxaMaster
 
 <!-- NEWS.md is generated from NEWS.Rmd. Please edit that file -->
 
-    #> Last Update: 2024-10-15 13:32:10.695729
+    #> Last Update: 2024-12-20 15:54:43.122482
+
+# MBSStools_SuportFiles v0.1.0.9016 (2024-12-20)
+
+- tests: Add tests to check column names
+  - Use names from function `MBSStools::qc_taxa`
 
 # MBSStools_SuportFiles v0.1.0.9015 (2024-10-15)
 
